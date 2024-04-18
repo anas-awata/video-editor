@@ -79,7 +79,7 @@ function EditVideoSideSection({ valuesArray, setValuesArray }: Props) {
   return (
     <div
       id="edit-section"
-      className="w-[40%] p-4 border-r border-gray-300 overflow-y-scroll max-h-[90vh]"
+      className="w-[100%] lg:w-[40%] p-4 border-r border-gray-300 overflow-y-scroll max-h-[90vh]"
     >
       <h2 className="text-lg font-bold mb-4">Edit Video</h2>
       <button

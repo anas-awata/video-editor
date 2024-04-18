@@ -51,7 +51,7 @@ export default function VideoSection({
         className={
           !videoUrl
             ? `w-[100%] flex justify-center items-center h-[90vh]`
-            : `w-[60%] m-4 relative`
+            : `w-[90%] lg:w-[60%] m-4 relative`
         }
       >
         {!videoUrl ? (

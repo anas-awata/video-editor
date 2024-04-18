@@ -27,7 +27,7 @@ const App: React.FC = () => {
   ]);
 
   return (
-    <div className="flex container items-start h-[95vh] pt-2">
+    <div className="flex flex-col lg:flex-row container items-start h-[95vh] pt-2">
       {editSectionOpen && (
         <EditVideoSideSection
           valuesArray={valuesArray}
