@@ -5,6 +5,7 @@ import tailwindcss from "tailwindcss";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/video-editor/",
   css: {
     postcss: {
       plugins: [tailwindcss()],
