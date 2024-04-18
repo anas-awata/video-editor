@@ -1,0 +1,15 @@
+#root {
+  width: 100%;
+}
+#edit-section::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+#edit-section::-webkit-scrollbar-track {
+  background: #ccc; /* Color of the track */
+}
+
+#edit-section::-webkit-scrollbar-thumb {
+  background-color: #f7941e; /* Color of the scroll thumb */
+  border-radius: 6px; /* Rounded corners */
+}
