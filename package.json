@@ -2,7 +2,7 @@
   "name": "video-editor",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://{anas-awata}.github.io/{video-editor}/",
+  "homepage": "https://anas-awata.github.io/video-editor",
   "type": "module",
   "scripts": {
     "dev": "vite",
